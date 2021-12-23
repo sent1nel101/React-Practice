@@ -9,7 +9,7 @@ function Body() {
         <img
           id="bodyImage"
           alt="decorative"
-          src="http://source.unsplash.com/random/1440x1080/?black"
+          src="http://source.unsplash.com/random/1440x1080/?landscape"
         />
         <h1 id="bodyTitle">The Future is Now</h1>
         <br />
