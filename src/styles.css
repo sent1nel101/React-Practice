@@ -1,0 +1,111 @@
+*,
+body,
+html,
+:root,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#headerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #474545a8;
+  color: white;
+  padding: 0 2rem;
+  width: 100vw;
+}
+
+#headerDiv h1 {
+  color: rgb(238, 206, 127);
+  margin-top: 5px;
+}
+
+#ulMenu {
+  display: flex;
+  list-style: none;
+  margin-top: 12px;
+}
+
+#ulMenu li a {
+  margin-left: 15px;
+  color: rgb(238, 206, 127);
+  text-decoration: none;
+  font-variant: small-caps;
+}
+a:hover{
+  position: relative;
+  top: 1px;
+}
+
+#bodyImage {
+  position: absolute;
+  z-index: -1000;
+  top: 0;
+  opacity: 0.6;
+  width: 100vw;
+  height: 100vh;
+}
+
+#containers {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#bodyTitle {
+  color: rgb(243, 243, 247);
+  font-variant: small-caps;
+  display: inline-block;
+}
+
+#bodySubTitle {
+  color: white;
+  display: inline-block;
+}
+
+#btnClick {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+#content {
+  margin: 0 auto;
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.para {
+  font-size: 16px;
+}
+#contactDiv {
+  padding: 3rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#footerDiv {
+  width: 100%;
+  height: 75px;
+  background-color: #4d4d4d;
+}
